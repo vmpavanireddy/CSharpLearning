@@ -23,3 +23,13 @@ bool loggedIn = true;
 Console.WriteLine("loggedIn: " + loggedIn);
 double salary = 200000.5;
 Console.WriteLine("salary is: " + salary);
+
+string Name2 = "divya";
+age = 19;
+loggedIn = false;
+salary = 250000.0;
+//output with using string interpolation
+Console.WriteLine($"Hello, {Name2}!");
+Console.WriteLine($"age is: {age}");
+Console.WriteLine($"loggedIn: {loggedIn}");
+Console.WriteLine($"salary is: {salary}");
