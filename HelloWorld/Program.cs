@@ -53,3 +53,24 @@ bool isaprogrammer = true;
 Console.WriteLine($"isaprogrammer: {isaprogrammer}");
 double userSalary = 200000.5;
 Console.WriteLine($"userSalary is: {userSalary}");
+
+//variables store data,operators let us work with that data
+//types of operators
+//1. arithmetic operators
+//2. comparison operators
+//3. logical operators
+//4. assignment operators
+
+int a = 10;
+int b = 5;
+int sum = a + b;
+int difference = a - b;
+int product = a * b;
+int quotient = a / b;
+int remainder = a % b;
+//arithmetic operators
+Console.WriteLine($"a + b = {sum}");
+Console.WriteLine($"a - b = {difference}");
+Console.WriteLine($"a * b = {product}");
+Console.WriteLine($"a / b = {quotient}");
+Console.WriteLine($"a % b = {remainder}");
