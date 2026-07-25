@@ -42,3 +42,14 @@ Console.WriteLine($"salary is: {salary}");
 //5. variable name cannot be a reserved keyword.ex: int, string, class, public, private, etc.
 //6. variable name is case sensitive. ex: Name and name are different variables.
 //7. variable name should be meaningful and descriptive. ex: age, salary, loggedIn, etc.
+
+//Using descriptive names:
+string firstName = "divya";
+string lastName = "reddy";
+Console.WriteLine($"Hello, {firstName} {lastName}!");
+int userAge = 20;
+Console.WriteLine($"userAge is: {userAge}");
+bool isaprogrammer = true;
+Console.WriteLine($"isaprogrammer: {isaprogrammer}");
+double userSalary = 200000.5;
+Console.WriteLine($"userSalary is: {userSalary}");
