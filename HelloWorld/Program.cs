@@ -81,3 +81,14 @@ Console.WriteLine($"a == b: {isEqual}");
 Console.WriteLine($"a != b: {isNotEqual}");
 Console.WriteLine( 15 >= 10); //true
 Console.WriteLine( 15 <= 10); //false
+
+//assignment operators
+int c = 10;
+c += 5; // c = c + 5
+Console.WriteLine($"c += 5: {c}");
+c -= 3; // c = c - 3
+Console.WriteLine($"c -= 3: {c}");
+c *= 2; // c = c * 2
+Console.WriteLine($"c *= 2: {c}");
+c /= 2; // c = c / 2
+Console.WriteLine($"c /= 2: {c}");
