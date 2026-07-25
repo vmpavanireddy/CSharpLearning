@@ -103,3 +103,36 @@ bool isFalse = false;
 Console.WriteLine($"isTrue && isFalse: {isTrue && isFalse}");
 Console.WriteLine($"isTrue || isFalse: {isTrue || isFalse}");
 Console.WriteLine($"!isTrue: {!isTrue}");
+
+//now using realworld example for each operator
+//Imagine you're writing a shopping application.
+//using descriptive names
+//example of assignment operators
+int itemPrice = 100;
+itemPrice += 20; // itemPrice = itemPrice + 20
+Console.WriteLine($"itemPrice: ${itemPrice}");
+//example of comparison operators
+int userAge1 = 20;
+int minAge1 = 18;
+bool isEligible1 = userAge1 >= minAge1;
+Console.WriteLine($"isEligible: {isEligible1}");
+//example of logical operators
+bool isLoggedIn = true;
+bool hasItemsInCart = true;
+bool canCheckout = isLoggedIn && hasItemsInCart;
+Console.WriteLine($"canCheckout: {canCheckout}");
+bool isLoggedIn_1 = false;
+bool hasItemsInCart_1 = true;
+bool canCheckout1 = isLoggedIn_1 || hasItemsInCart_1;
+Console.WriteLine($"canCheckout1: {canCheckout1}");
+//not operator
+bool isLoggedIn_2 = false;
+bool isNotLoggedIn = !isLoggedIn_2;
+Console.WriteLine($"isNotLoggedIn: {isNotLoggedIn}");
+int price = 100;
+int discount = 20;
+int quantity = 2;
+double total = price * quantity;
+int finalPrice = price - discount;
+Console.WriteLine($"finalPrice: ${finalPrice}");
+Console.WriteLine($"total: ${total}");
