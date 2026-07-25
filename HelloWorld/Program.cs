@@ -92,3 +92,14 @@ c *= 2; // c = c * 2
 Console.WriteLine($"c *= 2: {c}");
 c /= 2; // c = c / 2
 Console.WriteLine($"c /= 2: {c}");
+
+//logical operators
+//logical operators are used to combine conditional statements
+//&& - logical AND operator-Both conditions must be true
+//|| - logical OR operator-At least one condition must be true
+//! - logical NOT operator
+bool isTrue = true;
+bool isFalse = false;
+Console.WriteLine($"isTrue && isFalse: {isTrue && isFalse}");
+Console.WriteLine($"isTrue || isFalse: {isTrue || isFalse}");
+Console.WriteLine($"!isTrue: {!isTrue}");
