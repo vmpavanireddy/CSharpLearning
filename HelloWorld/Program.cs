@@ -33,3 +33,12 @@ Console.WriteLine($"Hello, {Name2}!");
 Console.WriteLine($"age is: {age}");
 Console.WriteLine($"loggedIn: {loggedIn}");
 Console.WriteLine($"salary is: {salary}");
+
+//variable naming rules
+//1. variable name can contain letters, digits, and underscores.
+//2. variable name must begin with a letter or an underscore.   
+//3. variable name cannot begin with a digit.
+//4. variable name cannot contain spaces or special characters.
+//5. variable name cannot be a reserved keyword.ex: int, string, class, public, private, etc.
+//6. variable name is case sensitive. ex: Name and name are different variables.
+//7. variable name should be meaningful and descriptive. ex: age, salary, loggedIn, etc.
