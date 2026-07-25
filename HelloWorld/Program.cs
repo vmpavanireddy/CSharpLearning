@@ -74,3 +74,10 @@ Console.WriteLine($"a - b = {difference}");
 Console.WriteLine($"a * b = {product}");
 Console.WriteLine($"a / b = {quotient}");
 Console.WriteLine($"a % b = {remainder}");
+//comparison operators
+bool isEqual = a == b;
+bool isNotEqual = a != b;
+Console.WriteLine($"a == b: {isEqual}");
+Console.WriteLine($"a != b: {isNotEqual}");
+Console.WriteLine( 15 >= 10); //true
+Console.WriteLine( 15 <= 10); //false
