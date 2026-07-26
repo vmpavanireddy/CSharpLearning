@@ -181,4 +181,35 @@ else
 {
     Console.WriteLine("Fail");
 }
-//
+//nested if-else statements
+bool hasTicket = true;
+int myage = 20;
+
+if (hasTicket)
+{
+    if (myage >= 18)
+    {
+        Console.WriteLine("Enjoy the movie!");
+    }
+}
+//Logical Operators with if
+int my_age = 25;
+bool hasLicense = true;
+
+if (my_age >= 18 && hasLicense)
+{
+    Console.WriteLine("You can drive.");
+}
+bool weekend = true;
+bool holiday = false;
+
+if (weekend || holiday)
+{
+    Console.WriteLine("No office today!");
+}
+bool isLoggedIn = false;
+
+if (!isLoggedIn)
+{
+    Console.WriteLine("Please login.");
+}
