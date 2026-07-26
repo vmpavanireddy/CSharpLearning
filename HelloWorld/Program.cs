@@ -292,3 +292,32 @@ switch (num % 2)
         Console.WriteLine("Invalid number.");
         break;
 }
+//example largest number
+int num1 = 10;
+int num2 = 20;
+if (num1 > num2)
+{
+    Console.WriteLine($"{num1} is the largest number.");
+}
+else if (num2 > num1)
+{
+    Console.WriteLine($"{num2} is the largest number.");
+}
+else
+{
+    Console.WriteLine("Both numbers are equal.");
+}
+//for more than 2 numbers
+int num3 = 15;
+if (num1 >= num2 && num1 >= num3)
+{
+    Console.WriteLine($"{num1} is the largest number.");
+}
+else if (num2 >= num1 && num2 >= num3)
+{
+    Console.WriteLine($"{num2} is the largest number.");
+}
+else
+{
+    Console.WriteLine($"{num3} is the largest number.");
+}
