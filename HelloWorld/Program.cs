@@ -365,3 +365,12 @@ switch (marks1 / 10)
         Console.WriteLine("Fail");
         break;
 }
+//loops
+//for loop 
+// for (initialization; condition; update){
+    // code to be executed
+//}
+for (int i = 1; i <= 5; i++)
+{
+    Console.WriteLine($"Iteration {i}");
+}
