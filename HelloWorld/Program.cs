@@ -153,3 +153,32 @@ else
 {
     Console.WriteLine("You are not eligible to vote.");
 }
+int age_nam = 15;
+
+if (age_nam >= 18)
+{
+    Console.WriteLine("Adult");
+}
+else
+{
+    Console.WriteLine("Minor");
+}
+ int marks = 82;
+
+if (marks >= 90)
+{
+    Console.WriteLine("Grade A");
+}
+else if (marks >= 75)
+{
+    Console.WriteLine("Grade B");
+}
+else if (marks >= 50)
+{
+    Console.WriteLine("Grade C");
+}
+else
+{
+    Console.WriteLine("Fail");
+}
+//
