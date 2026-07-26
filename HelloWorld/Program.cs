@@ -338,3 +338,30 @@ switch (userRole)
         Console.WriteLine("Invalid Role");
         break;
 }
+//grade caclulation using switch statement
+int marks1 = 85;
+switch (marks1 / 10)
+//calculation is done to get the first digit of the marks. For example, if marks is 85, then 85/10 = 8.5, which is converted to 8.
+{
+    case 10:
+    Console.WriteLine("Grade A+");
+        break;
+    case 9:
+        Console.WriteLine("Grade A");
+        break;
+    case 8:
+        Console.WriteLine("Grade B");
+        break;
+    case 7:
+        Console.WriteLine("Grade C");
+        break;
+    case 6:
+        Console.WriteLine("Grade D");
+        break;  
+    case 5:
+        Console.WriteLine("Grade E");
+        break;
+    default:
+        Console.WriteLine("Fail");
+        break;
+}
