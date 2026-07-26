@@ -321,3 +321,20 @@ else
 {
     Console.WriteLine($"{num3} is the largest number.");
 }
+//login check with switch statement
+string userRole = "admin";
+switch (userRole)
+{
+    case "admin":
+        Console.WriteLine("Welcome, Admin!");
+        break;
+    case "editor":
+        Console.WriteLine("Welcome, Editor!");
+        break;
+    case "viewer":
+        Console.WriteLine("Welcome, Viewer!");
+        break;
+    default:
+        Console.WriteLine("Invalid Role");
+        break;
+}
