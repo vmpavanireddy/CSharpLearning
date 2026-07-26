@@ -245,3 +245,15 @@ switch (day)
         Console.WriteLine("Invalid Day");
         break;
 }
+//real world example Imagine you're building a login system.
+string username = "jyothi";
+string password = "1234";
+
+if (username == "jyothi" && password == "1234")
+{
+    Console.WriteLine("Login Successful");
+}
+else
+{
+    Console.WriteLine("Invalid Credentials");
+}
