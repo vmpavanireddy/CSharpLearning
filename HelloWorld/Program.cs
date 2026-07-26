@@ -257,3 +257,14 @@ else
 {
     Console.WriteLine("Invalid Credentials");
 }
+//example
+double orderAmount = 120;
+
+if (orderAmount >= 100)
+{
+    Console.WriteLine("Free Shipping!");
+}
+else
+{
+    Console.WriteLine("Shipping Charge: $10");
+}
