@@ -136,3 +136,20 @@ double total = price * quantity;
 int finalPrice = price - discount;
 Console.WriteLine($"finalPrice: ${finalPrice}");
 Console.WriteLine($"total: ${total}");
+//if (condition)
+//{
+    // Code runs if the condition is true
+//}
+//else
+//{
+    // Code runs if the condition is false
+//}
+int userAge2 = 20;
+if (userAge2 >= 18)
+{
+    Console.WriteLine("You are eligible to vote.");
+}
+else
+{
+    Console.WriteLine("You are not eligible to vote.");
+}
