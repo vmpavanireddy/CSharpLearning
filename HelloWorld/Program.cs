@@ -268,3 +268,27 @@ else
 {
     Console.WriteLine("Shipping Charge: $10");
 }
+//even or odd number
+int number = 7;
+if (number % 2 == 0)
+{
+    Console.WriteLine($"{number} is an even number.");
+}
+else
+{
+    Console.WriteLine($"{number} is an odd number.");
+}
+//even or odd number using switch statement
+int num = 8;
+switch (num % 2)
+{
+    case 0:
+        Console.WriteLine($"{num} is an even number.");
+        break;
+    case 1:
+        Console.WriteLine($"{num} is an odd number.");
+        break;
+    default:
+        Console.WriteLine("Invalid number.");
+        break;
+}
