@@ -492,3 +492,18 @@ foreach (char letter in word)
 {
     Console.WriteLine(letter);
 }
+//Real-World Example ,Imagine you're displaying the first 5 products on an online store:
+for (int productNumber = 1; productNumber <= 5; productNumber++)
+{
+    Console.WriteLine($"Displaying Product #{productNumber}");
+}
+//using discriptive names
+for (int productIndex = 1; productIndex <= 5; productIndex++)
+{
+    Console.WriteLine($"Displaying Product #{productIndex}");
+}
+//example: Print the first 5 even numbers using a for loop
+for (int evenNumber = 2; evenNumber <= 10; evenNumber += 2)
+{
+    Console.WriteLine(evenNumber);
+}
