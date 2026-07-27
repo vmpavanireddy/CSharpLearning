@@ -583,3 +583,14 @@ Console.WriteLine(fruits_abc[1]);
 //Length Property,Use .Length to get the number of elements in an array.
 int[] numbers_123 = { 1, 2, 3, 4, 5 };
 Console.WriteLine($"Length of numbers array: {numbers_123.Length}");
+//Loop Through an Array
+for (int i_no = 0; i_no < numbers_123.Length; i_no++)
+{
+    Console.WriteLine(numbers_123[i_no]);
+}
+//Using foreach
+foreach (int number_123 in numbers_123)
+{
+    Console.WriteLine(number_123);
+}
+//means,"Take one number at a time from the array."You don't need indexes here.
