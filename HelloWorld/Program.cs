@@ -507,3 +507,32 @@ for (int evenNumber = 2; evenNumber <= 10; evenNumber += 2)
 {
     Console.WriteLine(evenNumber);
 }
+//pattern printing using for loop
+for (int row = 1; row <= 5; row++)
+{
+    for (int col = 1; col <= row; col++)
+    {
+        Console.Write("*");
+    }
+    Console.WriteLine();
+}
+//example: Print a square pattern of size 4 using a for loop
+int size = 4;
+for (int row = 1; row <= size; row++)
+{
+    for (int col = 1; col <= size; col++)
+    {
+        Console.Write("*");
+    }
+    Console.WriteLine();
+}
+//example: Print a right triangle pattern of size 5 using a for loop
+int triangleSize = 5;
+for (int row = 1; row <= triangleSize; row++)
+{
+    for (int col = 1; col <= row; col++)
+    {
+        Console.Write("*"); 
+    }
+    Console.WriteLine();
+}
