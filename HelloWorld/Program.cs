@@ -473,3 +473,22 @@ do
     p += 2;
 }
 while (p <= 9); 
+//foreach Loop ,foreach is used with collections (arrays, lists, etc.).
+string[] fruits = { "Apple", "Banana", "Orange" };
+
+foreach (string fruit in fruits)
+{
+    Console.WriteLine(fruit);
+}
+//example: Print all elements of an array using foreach loop
+int[] numbers = { 1, 2, 3, 4, 5 };
+foreach (int number3 in numbers)
+{
+    Console.WriteLine(number3);
+}
+//example: Print all characters of a string using foreach loop
+string word = "Hello";
+foreach (char letter in word)
+{
+    Console.WriteLine(letter);
+}
