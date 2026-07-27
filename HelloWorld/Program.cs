@@ -374,3 +374,13 @@ for (int i = 1; i <= 5; i++)
 {
     Console.WriteLine($"Iteration {i}");
 }
+//Printing Text
+for (int i = 1; i <= 3; i++)
+{
+    Console.WriteLine("Welcome");
+}
+//Counting Backwards
+for (int i = 5; i >= 1; i--)
+{
+    Console.WriteLine($"Countdown: {i}");
+}
