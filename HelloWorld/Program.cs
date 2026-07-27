@@ -536,3 +536,16 @@ for (int row = 1; row <= triangleSize; row++)
     }
     Console.WriteLine();
 }
+//arrays
+//An array stores multiple values of the same data type in a single variable.
+//syntax
+//datatype[] arrayName = new datatype[size];
+//dataType[] arrayName = { values };
+int[] numbers_10s = { 10, 20, 30, 40, 50 };
+//first value
+Console.WriteLine(numbers[0]);
+Console.WriteLine(numbers[1]);
+Console.WriteLine(numbers[2]);
+Console.WriteLine(numbers[3]);
+Console.WriteLine(numbers[4]);
+//Arrays always start from 0.
