@@ -370,35 +370,73 @@ switch (marks1 / 10)
 // for (initialization; condition; update){
     // code to be executed
 //}
-for (int i = 1; i <= 5; i++)
+for (int i1 = 1; i1 <= 5; i1++)
 {
-    Console.WriteLine($"Iteration {i}");
+    Console.WriteLine($"Iteration {i1}");
 }
 //Printing Text
-for (int i = 1; i <= 3; i++)
+for (int i2 = 1; i2 <= 3; i2++)
 {
     Console.WriteLine("Welcome");
 }
 //Counting Backwards
-for (int i = 5; i >= 1; i--)
+for (int i3 = 5; i3 >= 1; i3--)
 {
-    Console.WriteLine($"Countdown: {i}");
+    Console.WriteLine($"Countdown: {i3}");
 }
 //Skipping Numbers Print even numbers from 2 to 10:
-for (int i = 2; i <= 10; i += 2)
+for (int i4 = 2; i4 <= 10; i4 += 2)
 {
-    Console.WriteLine(i);
+    Console.WriteLine(i4);
 }
 //Using Variables Inside a Loop
 string name = "pavani";
 
-for (int i = 1; i <= 3; i++)
+for (int i5 = 1; i5 <= 3; i5++)
 {
     Console.WriteLine($"welcome {name}");
 }
 //Multiplication Table
 int number1 = 6;
-for (int i = 1; i <= 10; i++)
+for (int i6 = 1; i6 <= 10; i6++)
 {
-    Console.WriteLine($"{number1} x {i} = {number1 * i}");
+    Console.WriteLine($"{number1} x {i6} = {number1 * i6}");
 }
+//while Loop A while loop repeats as long as a condition is true.
+int i = 1;
+
+while (i <= 5)
+{
+    Console.WriteLine(i);
+    i++;
+}
+//must update i yourself. If you forget i++, the loop will never end.
+//example: Print numbers from 1 to 5 using while loop
+int j = 1;
+while (j <= 5)
+{
+    Console.WriteLine(j);
+    j++;
+}
+//example: Print even numbers from 2 to 10 using while loop
+int k = 2;
+while (k <= 10)
+{
+    Console.WriteLine(k);
+    k += 2;
+}
+//example: Print odd numbers from 1 to 9 using while loop
+int l = 1;
+while (l <= 9)
+{
+    Console.WriteLine(l);
+    l += 2;
+}
+//example: Print multiplication table of 5 using while loop
+int m = 1;
+int number2 = 5;
+while (m <= 10)
+{
+    Console.WriteLine($"{number2} x {m} = {number2 * m}");
+    m++;
+}   
