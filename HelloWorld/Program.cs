@@ -580,3 +580,6 @@ string[] fruits_abc =
 fruits_abc[1] = "Mango";
 
 Console.WriteLine(fruits_abc[1]);
+//Length Property,Use .Length to get the number of elements in an array.
+int[] numbers_123 = { 1, 2, 3, 4, 5 };
+Console.WriteLine($"Length of numbers array: {numbers_123.Length}");
