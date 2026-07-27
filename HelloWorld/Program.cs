@@ -440,3 +440,36 @@ while (m <= 10)
     Console.WriteLine($"{number2} x {m} = {number2 * m}");
     m++;
 }   
+//do...while Loop ,A do...while loop always runs at least once.
+int q = 6;
+
+do
+{
+    Console.WriteLine(q);
+    q++;
+}
+while (q <= 5);
+//example: Print numbers from 1 to 5 using do...while loop
+int n = 1;
+do
+{
+    Console.WriteLine(n);
+    n++;
+}
+while (n <= 5);
+//example: Print even numbers from 2 to 10 using do...while loop    
+int o = 2;
+do
+{
+    Console.WriteLine(o);
+    o += 2;
+}
+while (o <= 10);
+//example: Print odd numbers from 1 to 9 using do...while loop
+int p = 1;
+do
+{
+    Console.WriteLine(p);
+    p += 2;
+}
+while (p <= 9); 
