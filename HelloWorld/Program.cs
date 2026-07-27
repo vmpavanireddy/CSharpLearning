@@ -384,3 +384,21 @@ for (int i = 5; i >= 1; i--)
 {
     Console.WriteLine($"Countdown: {i}");
 }
+//Skipping Numbers Print even numbers from 2 to 10:
+for (int i = 2; i <= 10; i += 2)
+{
+    Console.WriteLine(i);
+}
+//Using Variables Inside a Loop
+string name = "pavani";
+
+for (int i = 1; i <= 3; i++)
+{
+    Console.WriteLine($"welcome {name}");
+}
+//Multiplication Table
+int number1 = 6;
+for (int i = 1; i <= 10; i++)
+{
+    Console.WriteLine($"{number1} x {i} = {number1 * i}");
+}
