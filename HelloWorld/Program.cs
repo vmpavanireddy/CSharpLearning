@@ -549,3 +549,14 @@ Console.WriteLine(numbers[2]);
 Console.WriteLine(numbers[3]);
 Console.WriteLine(numbers[4]);
 //Arrays always start from 0.
+//String Array,Arrays can store strings too.
+string[] vegies =
+{
+    "Carrot",
+    "Potato",
+    "Tomato"
+};
+
+Console.WriteLine(vegies[0]);
+Console.WriteLine(vegies[1]);
+Console.WriteLine(vegies[2]);
