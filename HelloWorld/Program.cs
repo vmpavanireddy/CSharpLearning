@@ -560,3 +560,12 @@ string[] vegies =
 Console.WriteLine(vegies[0]);
 Console.WriteLine(vegies[1]);
 Console.WriteLine(vegies[2]);
+//boolean Array,Arrays can store boolean values too.
+bool[] answers =
+{
+    true,
+    false,
+    true
+};
+
+Console.WriteLine(answers[0]);
