@@ -569,3 +569,14 @@ bool[] answers =
 };
 
 Console.WriteLine(answers[0]);
+//Changing an Array Value,Arrays are mutable.
+string[] fruits_abc =
+{
+    "Apple",
+    "Banana",
+    "Orange"
+};
+
+fruits_abc[1] = "Mango";
+
+Console.WriteLine(fruits_abc[1]);
