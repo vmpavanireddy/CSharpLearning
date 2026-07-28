@@ -594,3 +594,5 @@ foreach (int number_123 in numbers_123)
     Console.WriteLine(number_123);
 }
 //means,"Take one number at a time from the array."You don't need indexes here.
+//methods(functions)
+
