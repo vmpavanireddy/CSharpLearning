@@ -1,25 +1,4 @@
 using System;
-        /*
-        Requirement
-        A person wants to enter a movie theatre.
-        Given
-        Ticket Available = true
-        Age = 19
-        Rules
-        If:
-        Ticket is available
-        AND age is 18 or above
-        Display:
-        Enjoy the Movie!
-
-        Otherwise display:
-        Entry Denied
-
-        Concepts
-        Boolean Variables
-        Logical AND (&&)
-        if
-        */
 public class Movie
 {
     public void movietheatre()
