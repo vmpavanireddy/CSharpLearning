@@ -17,9 +17,9 @@ public string Name
     }
 }
 */
-//the next code is shortcut -The compiler secretly creates the private field for you.
-//1st way
-//Use this when you don't need validation.
+    //the next code is shortcut -The compiler secretly creates the private field for you.
+    //1st way
+    //Use this when you don't need validation.
     public int account_no { get; set; }
     //reading value=get
     //storing-assigning=set
@@ -44,18 +44,26 @@ public string Name
             }
         }
     }
-
+    //3rd way Read-Only Property
+    public string bank_name
+    {
+        get;
+    } = "ICIC";
 }
 class account
 {
     static void Main(String[] args)
     {
         //we use property for validation 
-        BankAccount account_1=new BankAccount();
-        account_1.account_no=29863;
+        BankAccount account_1 = new BankAccount();
+        account_1.account_no = 29863;
         Console.WriteLine($" account_no:{account_1.account_no}");
-        account_1.Age=20;
+        account_1.Age = 20;
         Console.WriteLine($" age:{account_1.Age}");
+        //account_1.bank_name="axis"//wrong cause its only get not set
+        Console.WriteLine($" bank_name:{account_1.bank_name}");
+
+
 
     }
 }
