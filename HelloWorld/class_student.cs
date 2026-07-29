@@ -20,5 +20,14 @@ public class class_student
         Console.WriteLine(student1.Name);
 
         Console.WriteLine(student1.Age);
+        //multiple objects
+        Students student2 = new Students();
+        student1.Name = "divya";
+
+        student1.Age = 19;
+        Console.WriteLine(student2.Name);
+
+        Console.WriteLine(student2.Age);
+
     }
 }
