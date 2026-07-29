@@ -28,6 +28,13 @@ public class clg
         Students_no stu_no = new Students_no("deepthi", 18);
         Console.WriteLine(stu_no.Name);
         Console.WriteLine(stu_no.Age);
+        //Creating Multiple Objects
+        Students_no stu_no_1 = new Students_no("santosh", 19);
+        Console.WriteLine(stu_no_1.Name);
+        Console.WriteLine(stu_no_1.Age);
+        Students_no stu_no_2 = new Students_no("umesh", 18);
+        Console.WriteLine(stu_no_2.Name);
+        Console.WriteLine(stu_no_2.Age);
 
     }
 }
