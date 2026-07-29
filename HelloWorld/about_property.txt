@@ -1,0 +1,68 @@
+/*A property is a controlled way to read and write data.
+
+Instead of exposing the field directly:
+
+public int Age;
+
+We expose a property:
+
+public int Age { get; set; }
+
+This looks strange at first...
+
+But it's one of the most commonly used features in C#.*/
+/*
+using System;
+
+class Student
+{
+    public string Name { get; set; }
+
+    public int Age { get; set; }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Student student = new Student();
+
+        student.Name = "pavani";
+        student.Age = 20;
+
+        Console.WriteLine(student.Name);
+        Console.WriteLine(student.Age);
+    }
+}
+Using the object didn't change.
+
+student.Name = "pavani";
+
+still works.
+
+The difference is inside the class.
+
+What Does get Mean?
+
+Think of get as reading the value.
+
+Console.WriteLine(student.Name);
+
+When you read student.Name, the get is used.
+What Does set Mean?
+
+set is used when assigning a value.
+
+student.Name = "pavani";
+
+| Action        | Keyword |
+| ------------- | ------- |
+| Read a value  | `get`   |
+| Write a value | `set`   |
+
+public string Name { get; set; }
+
+is called an auto-property.
+
+The compiler secretly creates a hidden field for you.
+*/
