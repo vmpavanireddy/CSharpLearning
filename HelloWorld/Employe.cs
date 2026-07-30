@@ -27,6 +27,14 @@ class Emplo
     {
         get;
     } = "infosys";
+
+    // Write-Only Property
+     private string password;
+
+    public string Password
+    {
+        set { password = value; }
+    }
 }
 
 class Employe
@@ -44,5 +52,7 @@ class Employe
         employee.Salary = -500;
 
         Console.WriteLine(employee.Salary);
+        employee.Password="234bkt";
+
     }
 }
