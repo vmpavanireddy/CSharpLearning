@@ -12,6 +12,20 @@ class person
     {
         Console.WriteLine(age);
     }
+    private double balance;
+
+    public double Balance
+    {
+        get
+        {
+            return balance;
+        }
+
+        private set
+        {
+            balance = value;
+        }
+    }
 }
 
 class list_student
@@ -23,9 +37,13 @@ class list_student
         student.Name = "pavani";
 
         Console.WriteLine(student.Name);
-        
+
         student.DisplayAge();
 
         // Console.WriteLine(student.age);  error
+
+        //student.Balance = 5000; error
+
+        Console.WriteLine(student.Balance);
     }
 }
