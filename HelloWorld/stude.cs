@@ -26,7 +26,7 @@ class stude
 {
     static void Main(string[] args)
     {
-        Student student = new Student();
+        Studens student = new Studens();
 
         student.Age = 25;
         Console.WriteLine(student.Age);
