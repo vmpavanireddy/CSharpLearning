@@ -22,6 +22,11 @@ class Emplo
             }
         }
     }
+    //Read-Only Property
+    public string Company
+    {
+        get;
+    } = "infosys";
 }
 
 class Employe
