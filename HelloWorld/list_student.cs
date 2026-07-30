@@ -26,6 +26,16 @@ class person
             balance = value;
         }
     }
+    //Private Methods
+    public int Square(int number)
+    {
+        return Multiply(number, number);
+    }
+
+    private int Multiply(int a, int b)
+    {
+        return a * b;
+    }
 }
 
 class list_student
@@ -45,5 +55,9 @@ class list_student
         //student.Balance = 5000; error
 
         Console.WriteLine(student.Balance);
+
+        Console.WriteLine(student.Square(5));
+
+        // calculator.Multiply(2, 3);  Error cause private
     }
 }
