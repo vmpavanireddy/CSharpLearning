@@ -3,6 +3,13 @@ using System;
 
 class person
 {
+    //A constructor can also be private.
+
+    /*private person()
+    {
+    }
+    *///example
+    //internal means:"Any class inside this project can use it, but code from another project cannot."
     //A public member can be accessed from anywhere.
     public string Name { get; set; }
     //A private member is accessible only inside the same class.
