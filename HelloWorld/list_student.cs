@@ -43,6 +43,22 @@ class person
     {
         return a * b;
     }
+    private int marks;
+
+    public int Marks
+    {
+        get
+        {
+            return marks;
+        }
+    }
+    public void SetMarks(int value)
+    {
+        if (value >=0 && value<=100)
+        {
+            marks = value;
+        }
+    }
 }
 
 class list_student
@@ -66,5 +82,10 @@ class list_student
         Console.WriteLine(student.Square(5));
 
         // calculator.Multiply(2, 3);  Error cause private
+
+        //encapsulation
+        student.SetMarks(95);
+
+Console.WriteLine(student.Marks);
     }
 }
