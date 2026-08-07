@@ -11,6 +11,11 @@ class Animal_1//parent class//Base class//Super class
 }
 class Dog : Animal_1//child class //Derived class //Subclass inherits from Animal_1 parent class
 {
+    //Child can have its own members
+    public void Bark()
+    {
+        Console.WriteLine("Dog is barking");
+    }
 }
 //: is what we use to specify inheritance.
 class Program_5
@@ -19,10 +24,11 @@ class Program_5
     {
         Dog dog = new Dog();
 
-        dog.Name = "Tommy";
+        dog.Name = "lucky";
 
         Console.WriteLine(dog.Name);
 
         dog.Eat();
+        dog.Bark();
     }
 }
