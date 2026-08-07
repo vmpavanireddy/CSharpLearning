@@ -23,5 +23,6 @@ class Program_7
         Dog_1 dog = new Dog_1();
         dog.Name = "Buddy";
         // dog.age = 5; ❌//error //The Main method cannot directly access Animal's private field.
-    }
+        //dog.age_animal = 5; // error //The Main method cannot directly access Animal's protected field, even though Dog inherits from Animal.
+}
 }
