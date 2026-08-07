@@ -15,7 +15,13 @@ class Car : Vehicle_1
         Console.WriteLine("Car is driving");
     }
 }
-
+class Bike : Vehicle_1
+{
+    public void Ride()
+    {
+        Console.WriteLine("Bike is riding");
+    }
+}
 class Program_6
 {
     static void Main()
@@ -28,5 +34,10 @@ class Program_6
 
         Console.WriteLine();
 
+        Bike bike = new Bike();
+
+        bike.Brand = "Yamaha";
+        bike.Start();
+        bike.Ride();
     }
 }
