@@ -20,9 +20,27 @@ But the behavior is different.
 
 That's polymorphism.
 */
+class Animal
+{
+    //what if we want Dog to make its own sound?
+//That's where polymorphism starts.
+    public virtual void MakeSound()
+    {
+        Console.WriteLine("Animal makes a sound");
+    }
+}
+//virtual:A child class is allowed to provide its own implementation of this method.
+//over ride:I'm replacing the parent's implementation with my own implementation.
+class Dog : Animal
+{
+}
+
 class program_12
 {
     static void Main(string[] args)
     {
+        Dog dog = new Dog();
+
+        dog.MakeSound();
     }
 }
