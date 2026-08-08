@@ -28,11 +28,16 @@ class Animal
     {
         Console.WriteLine("Animal makes a sound");
     }
+
 }
 //virtual:A child class is allowed to provide its own implementation of this method.
 //over ride:I'm replacing the parent's implementation with my own implementation.
 class Dog : Animal
 {
+    public override void MakeSound()
+    {
+        Console.WriteLine("Dog says Woof!");
+    }
 }
 
 class program_12
