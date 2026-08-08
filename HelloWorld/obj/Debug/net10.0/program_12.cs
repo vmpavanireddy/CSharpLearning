@@ -53,6 +53,7 @@ class Cow : Animal
         Console.WriteLine("Cow says Moo!");
     }
 }
+//So far, this is method overriding.
 class program_12
 {
     static void Main(string[] args)
