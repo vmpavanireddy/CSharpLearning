@@ -26,6 +26,7 @@ class Player : Character
 {
     public override void Attack()
     {
+        base.Attack(); // Call the base class implementation
         Console.WriteLine("Player uses sword!");
     }
 }
