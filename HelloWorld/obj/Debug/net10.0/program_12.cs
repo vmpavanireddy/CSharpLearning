@@ -39,7 +39,20 @@ class Dog : Animal
         Console.WriteLine("Dog says Woof!");
     }
 }
-
+class Cat : Animal
+{
+    public override void MakeSound()
+    {
+        Console.WriteLine("Cat says Meow!");
+    }
+}
+class Cow : Animal
+{
+    public override void MakeSound()
+    {
+        Console.WriteLine("Cow says Moo!");
+    }
+}
 class program_12
 {
     static void Main(string[] args)
@@ -47,5 +60,9 @@ class program_12
         Dog dog = new Dog();
 
         dog.MakeSound();
+        Cat cat = new Cat();
+        cat.MakeSound();
+        Cow cow = new Cow();
+        cow.MakeSound();
     }
 }
