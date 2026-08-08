@@ -60,6 +60,16 @@ class Program_13
         Because the actual object is a Dog.
         This is the heart of runtime polymorphism.
 */
-//C# uses the actual object's overridden method.
+        //C# uses the actual object's overridden method.
+        Animal animal = new Cat();
+
+        animal.MakeSound();
+        Animal animal = new Cow();
+
+        animal.MakeSound();
+        /*Same variable type.
+        Same method call.
+        Different behavior.
+        That's polymorphism.*/
     }
 }
