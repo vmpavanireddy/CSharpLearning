@@ -13,7 +13,13 @@ class UpiPayment : Payment
         Console.WriteLine("Payment made using UPI");
     }
 }
-
+class CreditCardPayment : Payment
+{
+    public override void MakePayment()
+    {
+        Console.WriteLine("Payment made using Credit Card");
+    }
+}
 class Program_17
 {
     static void Main()
