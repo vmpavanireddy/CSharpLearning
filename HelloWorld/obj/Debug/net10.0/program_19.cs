@@ -31,6 +31,23 @@ class program_19
 {
     static void Main(string[] args)
     {
+        Character player = new Player
+        {
+            Name = "Knight"
+        };
 
+        Character enemy = new Enemy
+        {
+            Name = "Goblin"
+        };
+
+        Character npc = new NPC
+        {
+            Name = "Villager"
+        };
+
+        player.Attack();
+        enemy.Attack();
+        npc.Attack();
     }
 }
