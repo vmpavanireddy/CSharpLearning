@@ -34,5 +34,12 @@ class Program_17
         UpiPayment payment = new UpiPayment();
 
         payment.MakePayment();
+        Payment payment1 = new UpiPayment();
+        Payment payment2 = new CreditCardPayment();
+        Payment payment3 = new CashPayment();
+
+        payment1.MakePayment();
+        payment2.MakePayment();
+        payment3.MakePayment();
     }
 }
