@@ -6,6 +6,13 @@ abstract class Character
 
     public abstract void Attack();
 }
+class Player : Character
+{
+    public override void Attack()
+    {
+        Console.WriteLine("Player attacks with sword");
+    }
+}
 class program_19
 {
     static void Main(string[] args)
