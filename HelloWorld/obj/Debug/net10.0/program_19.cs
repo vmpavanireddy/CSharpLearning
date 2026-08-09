@@ -13,6 +13,13 @@ class Player : Character
         Console.WriteLine("Player attacks with sword");
     }
 }
+class Enemy : Character
+{
+    public override void Attack()
+    {
+        Console.WriteLine("Enemy attacks with claws");
+    }
+}
 class program_19
 {
     static void Main(string[] args)
