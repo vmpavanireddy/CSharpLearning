@@ -20,6 +20,13 @@ class Enemy : Character
         Console.WriteLine("Enemy attacks with claws");
     }
 }
+class NPC : Character
+{
+    public override void Attack()
+    {
+        Console.WriteLine("NPC cannot attack");
+    }
+}
 class program_19
 {
     static void Main(string[] args)
