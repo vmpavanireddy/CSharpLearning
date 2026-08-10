@@ -11,6 +11,11 @@ interface interface_name
     //indexers
 }
 */
+interface IPayment
+//I is a convention used to indicate an interface.naming convention:I + Name
+{
+    void MakePayment();
+}
 class Program_20
 {
     static void Main(string[] args)
