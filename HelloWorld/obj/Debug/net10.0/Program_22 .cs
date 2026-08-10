@@ -25,6 +25,9 @@ class Program_22
 {
     static void Main(string[] args)
     {
+        Printer printer = new Printer();
 
+        printer.Print();
+        printer.Scan();
     }
 }
