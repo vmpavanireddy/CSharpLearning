@@ -16,6 +16,15 @@ interface IPayment
 {
     void MakePayment();
 }
+//class implements an interface using :
+class UpiPayment : IPayment
+//UpiPayment agrees to follow the IPayment contract.
+{
+    public void MakePayment()
+    {
+        Console.WriteLine("Payment made using UPI");
+    }
+}
 class Program_20
 {
     static void Main(string[] args)
