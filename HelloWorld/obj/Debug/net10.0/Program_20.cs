@@ -29,6 +29,8 @@ class Program_20
 {
     static void Main(string[] args)
     {
+        UpiPayment payment = new UpiPayment();
 
+        payment.MakePayment();
     }
 }
