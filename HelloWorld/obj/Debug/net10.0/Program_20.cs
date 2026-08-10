@@ -25,6 +25,26 @@ class UpiPayment : IPayment
         Console.WriteLine("Payment made using UPI");
     }
 }
+//et's create multiple payment methods.
+/*Each one must implement:
+MakePayment()
+But each can implement it differently.
+*/
+class CreditCardPayment : IPayment
+{
+    public void MakePayment()
+    {
+        Console.WriteLine("Credit Card payment");
+    }
+}
+
+class CashPayment : IPayment
+{
+    public void MakePayment()
+    {
+        Console.WriteLine("Cash payment");
+    }
+}
 class Program_20
 {
     static void Main(string[] args)
