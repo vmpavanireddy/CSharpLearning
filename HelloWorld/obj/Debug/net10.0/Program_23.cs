@@ -17,6 +17,10 @@ interface ILogger
 {
     void Log(string message);
 }
+interface IPaymentService
+{
+    void ProcessPayment(decimal amount);
+}
 
 class Program_23
 {
