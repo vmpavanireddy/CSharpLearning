@@ -25,5 +25,10 @@ class program_24
     {
         ILogger logger = new ConsoleLogger();
         logger.Log("This is a log message.");
+        ilogger = new FileLogger();
+        logger.Log("This is another log message.");
+        ilogger = new ConsoleLogger();
+        logger.Log("This is a log message.");
+
     }
 }
