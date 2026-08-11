@@ -55,6 +55,9 @@ class Program_23
 {
     static void Main(string[] args)
     {
-
+        UserService userService = new UserService();
+        userService.CreateUser("pavani", "pavani@example.com");
+        userService.SendEmail("pavani@example.com", "Welcome!", "yo, welcome to my gameplay!");
+        userService.ProcessPayment(100.00m);
     }
 }
