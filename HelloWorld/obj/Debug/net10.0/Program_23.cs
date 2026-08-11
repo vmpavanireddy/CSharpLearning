@@ -13,6 +13,10 @@ interface IEmailService
 {
     void SendEmail(string to, string subject, string body);
 }
+interface ILogger
+{
+    void Log(string message);
+}
 
 class Program_23
 {
