@@ -48,11 +48,11 @@ class program_26
         IAuthenticationService authService = new CreditCardPayment();
 
         paymentService.ProcessPayment(100.00m);
-        userService.CreateUser("john_doe");
+        userService.CreateUser("pavani");
         productRepository.AddProduct("Laptop");
-        bool isAuthenticated = authService.Authenticate("john_doe", "password123");
+        bool isAuthenticated = authService.Authenticate("pavani", "password123");
 
         Console.WriteLine($"User authenticated: {isAuthenticated}");
-        
+
     }
 }
