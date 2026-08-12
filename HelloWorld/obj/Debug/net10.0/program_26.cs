@@ -42,6 +42,17 @@ class program_26
 {
     static void Main(string[] args)
     {
+        IPayment paymentService = new CreditCardPayment();
+        IUserService userService = new CreditCardPayment();
+        IProductRepository productRepository = new CreditCardPayment();
+        IAuthenticationService authService = new CreditCardPayment();
 
+        paymentService.ProcessPayment(100.00m);
+        userService.CreateUser("john_doe");
+        productRepository.AddProduct("Laptop");
+        bool isAuthenticated = authService.Authenticate("john_doe", "password123");
+
+        Console.WriteLine($"User authenticated: {isAuthenticated}");
+        
     }
 }
