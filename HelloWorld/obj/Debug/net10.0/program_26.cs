@@ -11,6 +11,10 @@ interface IProductRepository
 {
     void AddProduct(string productName);
 }
+interface IAuthenticationService
+{
+    bool Authenticate(string username, string password);
+}
 class program_26
 {
     static void Main(string[] args)
