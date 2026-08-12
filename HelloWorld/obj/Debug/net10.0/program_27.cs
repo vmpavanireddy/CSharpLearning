@@ -35,8 +35,9 @@ class program_27
 
         Console.WriteLine($"Employee Name: {employee.Name}");
         Console.WriteLine($"Employee Salary: {employee.Salary:C}");
-
+        
         employee.Work();
+        employee.TakeLeave();
 
     }
 }
