@@ -3,7 +3,10 @@ interface IPayment
 {
     void ProcessPayment(decimal amount);
 }
-
+interface IUserService
+{
+    void CreateUser(string username);
+}
 class program_26
 {
     static void Main(string[] args)
