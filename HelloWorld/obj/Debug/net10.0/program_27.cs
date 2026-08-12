@@ -20,6 +20,10 @@ class Developer : IEmployee
     {
         Console.WriteLine("Developer is writing code");
     }
+    public void TakeLeave()
+    {
+        Console.WriteLine("Developer is on leave");
+    }
 }
 class program_27
 {
