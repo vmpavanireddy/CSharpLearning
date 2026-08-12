@@ -7,6 +7,8 @@ interface IEmployee
     double Salary { get; set; }
 
     void Work();
+    //Interface with multiple members
+    void TakeLeave();
 }
 class Developer : IEmployee
 {
