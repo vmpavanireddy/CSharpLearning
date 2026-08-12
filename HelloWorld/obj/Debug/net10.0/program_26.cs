@@ -7,6 +7,10 @@ interface IUserService
 {
     void CreateUser(string username);
 }
+interface IProductRepository
+{
+    void AddProduct(string productName);
+}
 class program_26
 {
     static void Main(string[] args)
