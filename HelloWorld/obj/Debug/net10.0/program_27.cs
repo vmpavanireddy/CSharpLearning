@@ -23,6 +23,14 @@ class program_27
 {
     static void Main(string[] args)
     {
+        IEmployee employee = new Developer();
+        employee.Name = "pavani";
+        employee.Salary = 60000;
+
+        Console.WriteLine($"Employee Name: {employee.Name}");
+        Console.WriteLine($"Employee Salary: {employee.Salary:C}");
+
+        employee.Work();
 
     }
 }
