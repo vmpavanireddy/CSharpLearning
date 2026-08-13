@@ -18,6 +18,13 @@ class SMSNotification : INotification
         Console.WriteLine($"Sending SMS notification: {message}");
     }
 }
+class WhatsAppNotification : INotification
+{
+    public void Send(string message)
+    {
+        Console.WriteLine($"Sending WhatsApp notification: {message}");
+    }
+}
 class program_29
 {
     static void Main(string[] args)
