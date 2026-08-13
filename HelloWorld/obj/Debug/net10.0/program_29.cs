@@ -11,6 +11,13 @@ class EmailNotification : INotification
         Console.WriteLine($"Sending email notification: {message}");
     }
 }
+class SMSNotification : INotification
+{
+    public void Send(string message)
+    {
+        Console.WriteLine($"Sending SMS notification: {message}");
+    }
+}
 class program_29
 {
     static void Main(string[] args)
