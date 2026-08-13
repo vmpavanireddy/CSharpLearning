@@ -31,5 +31,9 @@ class program_29
     {
         INotification notification = new EmailNotification();
         notification.Send("Hello, this is a test email notification.");
+        INotification notification2 = new SMSNotification();
+        notification2.Send("Hello, this is a test SMS notification.");
+        INotification notification3 = new WhatsAppNotification();
+        notification3.Send("Hello, this is a test WhatsApp notification.");
     }
 }
