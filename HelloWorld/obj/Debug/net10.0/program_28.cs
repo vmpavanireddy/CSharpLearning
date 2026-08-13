@@ -5,6 +5,19 @@ interface IPaymentService
     bool Pay(double amount);
 
 }
+class UpiPayment : IPaymentService
+{
+    public void ProcessPayment(decimal amount)
+    {
+        Console.WriteLine($"Processing UPI payment of ₹{amount}");
+    }
+    public bool Pay(double amount)
+    {
+        Console.WriteLine($"Paid ₹{amount} using UPI");
+
+        return true;
+    }
+}
 class program_28
 {
     static void Main(string[] args)
