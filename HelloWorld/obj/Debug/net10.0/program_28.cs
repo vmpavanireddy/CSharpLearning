@@ -38,5 +38,19 @@ class program_28
         IPaymentService paymentService = new CreditCardPaymentService();
         paymentService.ProcessPayment(100.00m);
         bool paymentResult = paymentService.Pay(100.00);
+        if (paymentResult)
+        {
+            Console.WriteLine("Payment successful");
+        }
+        else
+        {
+            Console.WriteLine("Payment failed");
+        }
+        IPaymentService payment = new UpiPayment();
+
+        payment.Pay(500);
+        payment = new CardPayment();
+
+        payment.Pay(500);
     }
 }
