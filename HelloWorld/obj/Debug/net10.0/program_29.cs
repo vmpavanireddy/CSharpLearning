@@ -4,6 +4,13 @@ interface INotification
 {
     void Send(string message);
 }
+class EmailNotification : INotification
+{
+    public void Send(string message)
+    {
+        Console.WriteLine($"Sending email notification: {message}");
+    }
+}
 class program_29
 {
     static void Main(string[] args)
