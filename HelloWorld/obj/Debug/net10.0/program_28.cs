@@ -18,6 +18,19 @@ class UpiPayment : IPaymentService
         return true;
     }
 }
+class CardPayment : IPaymentService
+{
+    public void ProcessPayment(decimal amount)
+    {
+        Console.WriteLine($"Processing Card payment of ₹{amount}");
+    }
+    public bool Pay(double amount)
+    {
+        Console.WriteLine($"Paid ₹{amount} using Card");
+
+        return true;
+    }
+}
 class program_28
 {
     static void Main(string[] args)
