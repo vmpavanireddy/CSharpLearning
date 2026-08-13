@@ -1,0 +1,14 @@
+//Interface vs Inheritance
+using System;
+interface INotification
+{
+    void Send(string message);
+}
+class program_29
+{
+    static void Main(string[] args)
+    {
+        INotification notification = new EmailNotification();
+        notification.Send("Hello, this is a test email notification.");
+    }
+}
