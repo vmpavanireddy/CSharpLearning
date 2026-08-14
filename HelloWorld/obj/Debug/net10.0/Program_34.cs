@@ -14,6 +14,10 @@ class Program_34
 {
     static void Main(string[] args)
     {
-        
+        Player player = new Player();
+        player.Name = "Pavani";
+        player.TakeDamage(30);
+
+        Console.WriteLine($"Player: {player.Name}, Health: {player.Health}");
     }
 }
