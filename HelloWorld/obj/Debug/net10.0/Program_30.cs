@@ -30,7 +30,12 @@ class Program_30
 {
     static void Main(string[] args)
     {
+        BankAccount acc = new BankAccount();
+        acc.AccountHolder = "Pavani";
+        acc.Deposit(5000);
+        acc.Withdraw(2000);
 
+        Console.WriteLine(acc.Balance);
 
     }
 }
