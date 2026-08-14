@@ -17,6 +17,10 @@ class Program_33
 {
     static void Main(string[] args)
     {
+        Student student = new Student();
+        student.Name = "pavani ";
+        student.Marks = 85;
 
+        Console.WriteLine($"Student: {student.Name}, Marks: {student.Marks}, Grade: {student.GetGrade()}");
     }
 }
