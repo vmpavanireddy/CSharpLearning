@@ -13,6 +13,23 @@ class Program_32
 {
     static void Main(string[] args)
     {
-        
+        User user = new User();
+        user.Username = "admin";
+        user.Password = "password123";
+
+        Console.WriteLine("Enter username:");
+        string inputUsername = Console.ReadLine();
+
+        Console.WriteLine("Enter password:");
+        string inputPassword = Console.ReadLine();
+
+        if (user.Login(inputUsername, inputPassword))
+        {
+            Console.WriteLine("Login successful!");
+        }
+        else
+        {
+            Console.WriteLine("Invalid username or password.");
+        }
     }
 }
