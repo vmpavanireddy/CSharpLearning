@@ -20,5 +20,14 @@ class Program_38
 {
     static void Main(string[] args)
     {
+        Phone phone = new Phone();
+
+        phone.Use(30);
+
+        Console.WriteLine(phone.Battery); // 70
+
+        phone.Charge();
+
+        Console.WriteLine(phone.Battery); // 100
     }
 }
