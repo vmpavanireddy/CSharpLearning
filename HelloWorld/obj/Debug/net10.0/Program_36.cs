@@ -27,6 +27,10 @@ class Program_36
 {
     static void Main(string[] args)
     {
+        Product phone = new Product("iPhone", 10);
 
+        phone.Sell(3);
+
+        Console.WriteLine(phone.Stock); // 7
     }
 }
