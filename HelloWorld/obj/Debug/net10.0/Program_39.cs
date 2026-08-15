@@ -18,6 +18,10 @@ class Program_39
 {
     static void Main(string[] args)
     {
+        ShoppingCart cart = new ShoppingCart();
 
+        cart.Total = 6000;
+
+        Console.WriteLine(cart.GetFinalPrice()); // 4800
     }
 }
