@@ -27,5 +27,11 @@ class program_40
 {
     static void Main(string[] args)
     {
+        MovieTicket movie = new MovieTicket("Avengers", 3);
+
+        movie.BookSeat();
+        movie.BookSeat();
+
+        Console.WriteLine(movie.Seats); // 1
     }
 }
