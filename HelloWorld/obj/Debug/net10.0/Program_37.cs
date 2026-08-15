@@ -29,6 +29,10 @@ class Program_37
 {
     static void Main(string[] args)
     {
+        Car car = new Car("Toyota", 20);
 
+        car.Drive(50);
+
+        Console.WriteLine(car.Fuel);
     }
 }
