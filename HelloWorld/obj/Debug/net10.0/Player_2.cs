@@ -1,7 +1,12 @@
 using System;
 
 Player_2 player = new Player_2();
-Console.WriteLine(player.Health); 
+
+player.TakeDamage(30);
+Console.WriteLine(player.Health);
+
+player.TakeDamage(-20);
+Console.WriteLine(player.Health);
 
 class Player_2
 {
@@ -14,6 +19,9 @@ class Player_2
 
     public void TakeDamage(int damage)
     {
-        Health -= damage;
+        if (damage > 0)
+        {
+            Health -= damage;
+        }
     }
 }
