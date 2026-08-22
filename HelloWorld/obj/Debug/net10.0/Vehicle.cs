@@ -20,3 +20,10 @@ class Airplane : Vehicle
         Console.WriteLine("Airplane flies in the sky");
     }
 }
+class Boat : Vehicle
+{
+    public override void Move()
+    {
+        Console.WriteLine("Boat sails on water");
+    }
+}
