@@ -1,6 +1,11 @@
 using System;
 vehicle = new Car();
 vehicle.Move();
+vehicle = new Airplane();
+vehicle.Move();
+vehicle = new Boat();
+vehicle.Move();
+//result changes depending on the actual object:
 class Vehicle
 {
     public virtual void Move()
