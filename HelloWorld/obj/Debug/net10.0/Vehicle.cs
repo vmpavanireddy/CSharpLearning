@@ -1,4 +1,6 @@
 using System;
+vehicle = new Car();
+vehicle.Move();
 class Vehicle
 {
     public virtual void Move()
