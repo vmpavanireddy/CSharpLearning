@@ -6,3 +6,10 @@ class Vehicle
         Console.WriteLine("Vehicle is moving");
     }
 }
+class Car : Vehicle
+{
+    public override void Move()
+    {
+        Console.WriteLine("Car drives on the road");
+    }
+}
