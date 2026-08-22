@@ -1,4 +1,7 @@
 using System;
+character = new Player();
+
+character.Attack();
 class Character
 {
     public virtual void Attack()
