@@ -5,6 +5,11 @@ character.Attack();
 character = new Enemy();
 
 character.Attack();
+Character player = new Player();
+Character enemy = new Enemy();
+
+player.Attack();
+enemy.Attack();
 class Character
 {
     public virtual void Attack()
