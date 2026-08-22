@@ -6,3 +6,10 @@ class Character
         Console.WriteLine("Character attacks");
     }
 }
+class Player : Character
+{
+    public override void Attack()
+    {
+        Console.WriteLine("Player attacks with a sword");
+    }
+}
