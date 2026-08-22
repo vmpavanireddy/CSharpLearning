@@ -13,3 +13,10 @@ class Car : Vehicle
         Console.WriteLine("Car drives on the road");
     }
 }
+class Airplane : Vehicle
+{
+    public override void Move()
+    {
+        Console.WriteLine("Airplane flies in the sky");
+    }
+}
